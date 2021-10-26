@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Galeria de Arte</title>
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0" id="product-section">
+        <header class="bannerInicio">
+            <div class=" d-flex flex-row justify-content-start align-items-start align-self-start naVbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 naVbar m-0 p-0">
+                <div class="container-fluid">
+                    <a class="nav-link Nav1" href="#product-section">Pixel</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item Nav1">
+                                <a class="nav-link active" aria-current="page" href="#prinCipal">Explora</a>
+                            </li>
+                            <li class="nav-item Nav1">
+                                <a class="nav-link" href="#foOter">Nosotros</a>
+                            </li>
+                            
+                            <li class="navItem ms-2 d-flex flex-row justify-content-center align-items-center align-self-center">
+                                <i class="fas fa-shopping-cart  carritox dropdown-toggle d-flex flex-row justify-content-center align-items-center align-self-center me-2 mt-1"  id="dropdownMenu2" data-bs-toggle="dropdown"
+                                    aria-expanded="false"></i>
+                                
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenu2">
+                                <li class=" d-flex flex-column justify-content-center align-items-center align-self-center">
+                                    <h2 class="fiNaltitulo  d-flex flex-column justify-content-center align-items-center align-self-center px-4">Complete los datos para finalizar la compra</h2>
+                                    <div class="mb-3 d-flex flex-column justify-content-center align-items-center align-self-center mt-3">
+                                    <label for="formGroupExampleInput" class="form-label">Mail</label>
+                                    <input type="text" class="form-control imputs" id="formGroupExampleInput" placeholder="edgar@gmail.com">
+                                </div>
+                                <div class="mb-3 d-flex flex-column justify-content-center align-items-center align-self-center">
+                                    <label for="formGroupExampleInput2" class="form-label">Descripcion</label>
+                                    <input type="text" class="form-control imputs" id="formGroupExampleInput2" placeholder="Descripcion">
+                                    <div class=" d-flex flex-row justify-content-around align-items-center  mt-4 ">
+                                    <button type="button" class="btn btn-primary fiNAL ">Finalizar</button>
+                                    <button type="button" class="btn btn-secondary ms-4 fiNalVaciar">Vaciar Carrito</button>
+                                    </div>
+                                </div>
+                            </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                        <form class="d-flex foRm ">
+                            
+                            
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle me-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Buscar
+                                </button>
+                                <ul class="dropdown-menu SearChatrivutos mt-3" aria-labelledby="dropdownMenuButton1">
+                                    <li class="searCh dropdown-item" ></li>
+                                    
+                                </ul>
+                            </div>
+                            <div>
+                            <input class="form-control "placeholder="Artista" id="myInputElement">
+                            </form>
+                        </div>
+                            
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class="container-fluid section1  d-flex flex-wrap flex-row justify-content-around align-items-center align-content-center">
+                <section class="d-flex flex-column justify-content-center  align-self-center  flex-wrap col-xl-6 col-md-12 col-sm-12 ps-3 pt-4">
+                <h1 class="title1 ">Pixel Bs As</h1>
+                <h2 id="H2">Compra y vende tus NFT</h2>
+                </section>
+                <section  class="d-flex flex-column justify-content-center  align-self-center  flex-wrap imagenSobrebanner col-xl-6 col-md-12 col-sm-12" >
+
+                   
+                    <div class="card d-flex flex-column justify-content-center align-items-center align-self-center caRd1" >
+                        <a href="#prinCipal"><img src="./imgs/timeSquare.jpg" class="card-img-top" alt="timeSquare" ></a>
+                        
+                        <div class="card-body">
+                            <p class="card-text">Compra tus <span>NFT</span> favoritos</p>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            
+        </header>
+    </div>
+
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center align-self-center mt-5 m-0 p-0" id="prinCipal">
+        <h3>Notable Drops</h3>
+    </div>
+
+    <div class="container-fluid proDucts d-flex flex-row flex-wrap justify-content-around align-items-center align-self-center mx-3 mt-5 m-0 p-0">
+        
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white m-0 p-0 mt-5" style="background-color: #45526e" id="foOter">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Pixel
+                        </h6>
+                        <p>
+                            Somos una plataforma de venta de NFT, no dudes en enviarnos tu coleccion.
+                        </p>
+                    </div>
+                  
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> Bs As, Avenida Siempreviva 742 , Arg</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2021 Copyright:
+                            <a class="text-white" href="https://www.pyramidwebdesign.com.ar/">Pyramid</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4e615bca6.js" crossorigin="anonymous"></script>
+    
+
+    <script src="java.js">
+
+    </script>
+</body>
+
+</html>
