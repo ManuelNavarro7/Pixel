@@ -4,48 +4,48 @@ const products = [
         name: 'KiajuKing',
         numberOfColeccion: 1,
         price: 0.25,
-        img: '/imgs/dino1.png'
+        img: './imgs/prueba.jpg'
     },
     {
         id: '2',
         name: 'KiajuKing',
         numberOfColeccion: 2,
         price: 0.10,
-        img: '/imgs/dino2.png'
+        img: './imgs/dino2.png'
     },
     {
         id: '3',
         name: 'Shivoshy',
         numberOfColeccion: 1,
         price: 0.07,
-        img: '/imgs/shiboshi.png'
+        img: './imgs/shiboshi.png'
     },
     {
         id: '4',
         name: 'Shivoshy',
         numberOfColeccion: 2,
         price: 0.30,
-        img: '/imgs/shiboshi1.png'
+        img: './imgs/shiboshi1.png'
     }, {
         id: '5',
         name: 'CryptooPunk',
         numberOfColeccion: 1,
         price: 0.10,
-        img: '/imgs/cryptoPunk.png'
+        img: './imgs/cryptoPunk.png'
     },
     {
         id: '6',
         name: 'CryptooPunk',
         numberOfColeccion: 2,
         price: 0.07,
-        img: '/imgs/cryptoPunk1.png'
+        img: './imgs/cryptoPunk1.png'
     },
     {
         id: '7',
         name: 'CryptooPunk',
         numberOfColeccion: 3,
         price: 0.30,
-        img: '/imgs/c.png'
+        img: './imgs/c.png'
     }
 
 ]
