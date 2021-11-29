@@ -1,51 +1,51 @@
 const products = [
     {
         id: '1',
-        name: 'KiajuKing',
+        name: 'Appe Saint',
         numberOfColeccion: 1,
         price: 0.25,
-        img: './imgs/prueba.jpg'
+        img: './imgs/appeDisfras.jpeg'
     },
     {
         id: '2',
-        name: 'KiajuKing',
+        name: 'Appe Laser',
         numberOfColeccion: 2,
         price: 0.10,
-        img: './imgs/dino2.png'
+        img: './imgs/appejirafa.jpeg'
     },
     {
         id: '3',
-        name: 'Shivoshy',
+        name: 'La Gioconda',
         numberOfColeccion: 1,
         price: 0.07,
-        img: './imgs/shiboshi.png'
+        img: './imgs/monaNft.jpeg'
     },
     {
         id: '4',
-        name: 'Shivoshy',
+        name: 'Last Dinner',
         numberOfColeccion: 2,
         price: 0.30,
-        img: './imgs/shiboshi1.png'
+        img: './imgs/lastdinner.jpeg'
     }, {
         id: '5',
-        name: 'CryptooPunk',
+        name: 'Movie Art',
         numberOfColeccion: 1,
         price: 0.10,
-        img: './imgs/cryptoPunk.png'
+        img: './imgs/imagPelicula.jpeg'
     },
     {
         id: '6',
-        name: 'CryptooPunk',
+        name: 'Cyber Art',
         numberOfColeccion: 2,
         price: 0.07,
-        img: './imgs/cryptoPunk1.png'
+        img: './imgs/raro.jpeg'
     },
     {
         id: '7',
-        name: 'CryptooPunk',
+        name: 'Warhol Nft',
         numberOfColeccion: 3,
         price: 0.30,
-        img: './imgs/c.png'
+        img: './imgs/wharhool.jpeg'
     }
 
 ]
@@ -67,7 +67,7 @@ for (const productA of products) {
             
         
             <div class="card article1 col-xxl-2 col-md-5 col-sm-6 d-flex flex-column justify-content-center align-content-center align-items-center mt-5 mx-3 mb-3" style="width: 18rem;">
-            <img src=${productA.img} class="card-img-top" alt="...">
+            <img src=${productA.img} class="card-img-top" width="100px" height="300px" alt="...">
             <div class="card-body ">
             <section class=" d-flex flex-column justify-content-center align-content-center align-items-center ">
                 <h5 class="">${productA.name}</h5>
