@@ -4,7 +4,7 @@ const products = [
         name: 'KiajuKing',
         numberOfColeccion: 1,
         price: 0.25,
-        img: './imgs/dino1.png'
+        img: './imgs/prueba.jpg'
     },
     {
         id: '2',
